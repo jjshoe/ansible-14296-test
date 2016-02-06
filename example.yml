@@ -1,0 +1,28 @@
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  roles:
+    - a
+    - b
+
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  roles:
+    - c
+    - d
+
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  roles:
+    - e
+    - f
+
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  roles:
+    - g
+    - h
+
